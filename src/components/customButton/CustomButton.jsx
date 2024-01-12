@@ -1,7 +1,10 @@
 import React from "react";
+import { makeUpperCase } from "../utilities/helpers";
 
-const CustomButton = (props) => {
-  return <button>{props.text}</button>;
+export const CustomButton = (props) => {
+  return (
+    <button onClick={props.onClickHandler}>{makeUpperCase(props.text)}</button>
+  );
 };
 
-export default CustomButton;
+// export default CustomButton;

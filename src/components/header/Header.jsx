@@ -1,7 +1,7 @@
 import React from "react";
 import personalBrand from "../../assets/images/personal-brand.jpg";
 import backgroundVideo from "../../assets/videos/background.mp4";
-import CustomButton from "../customButton/CustomButton";
+import { CustomButton } from "../customButton/CustomButton";
 
 export const Header = () => {
   return (
