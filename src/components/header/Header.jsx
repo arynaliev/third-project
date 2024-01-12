@@ -4,6 +4,10 @@ import backgroundVideo from "../../assets/videos/background.mp4";
 import { CustomButton } from "../customButton/CustomButton";
 
 export const Header = () => {
+  // const onPlayHandler = () => {
+  //   return
+  // };
+
   return (
     <div>
       <img width="300px" src={personalBrand} alt="Personal Brand" />
@@ -13,11 +17,11 @@ export const Header = () => {
         typeof="video/mp4"
         z-index={"-1"}
         controls
-        autoPlay
+        // autoPlay
         loop
       ></video>
       <br />
-      <CustomButton text="Play the video" />
+      <CustomButton /*onClickHandler={onPlayHandler}*/ text="Play the video" />
     </div>
   );
 };
