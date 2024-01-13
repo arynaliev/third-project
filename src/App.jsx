@@ -1,7 +1,8 @@
 import "./App.css";
 import { CustomButton } from "./components/customButton/CustomButton";
 import { CustomInput } from "./components/customInput/CustomInput";
-import { Header } from "./components/header/Header";
+// import Header from "./components/header/Header";
+// import { Header } from "./components/header/Header";
 
 function App() {
   const onClickHandler = () => {

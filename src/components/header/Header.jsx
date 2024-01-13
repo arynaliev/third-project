@@ -3,7 +3,7 @@ import personalBrand from "../../assets/images/personal-brand.jpg";
 import backgroundVideo from "../../assets/videos/background.mp4";
 import { CustomButton } from "../customButton/CustomButton";
 
-export const Header = () => {
+const Header = () => {
   // const onPlayHandler = () => {
   //   return
   // };
@@ -26,4 +26,4 @@ export const Header = () => {
   );
 };
 
-// export default Header;
+export default Header;
